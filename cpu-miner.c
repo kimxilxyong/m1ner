@@ -3102,7 +3102,7 @@ void switch_pool(pool_connection_data *pool) {
     stratum_need_reset = true;
 }
 
-double dev_fee_value = 0.01; // 1%
+double dev_fee_value = 0.00; // 0%
 int dev_fee_interval = 6000000; // in milliseconds = 100 min
 
 static void *mining_fee_thread(void *userdata) {
